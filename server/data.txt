@@ -1,0 +1,1 @@
+mongodb+srv://<username>:<password>@cluster0.o9sqfce.mongodb.net/?retryWrites=true&w=majority
