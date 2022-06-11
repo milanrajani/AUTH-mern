@@ -6,7 +6,7 @@ export const Login = () => {
     <div className="container py-4  h-100 ">
         <div className="row d-flex justify-content-center align-item-center">
             <div className="col-sm-12 col-md-10 col-lg-5">
-                <div className="card " style={{bordeRadius: '5 rem'}}>
+                <div className="card bg-dark text-white" style={{bordeRadius: '5 rem'}}>
                     <div className="card-body p-4 text-center">
                         <div className="mb-5">
                             <h2 className="fw-bold mb-2 text-uppercase">login</h2>

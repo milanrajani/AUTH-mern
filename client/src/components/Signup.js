@@ -19,10 +19,9 @@ export const Signup = () => {
                                                             <h2 className="fw-bold mb-2 text-uppercase">Register</h2>
                                                             <p className="text-white-50 mb-5">Don't have Account? Create one  </p>
                                                         </div>
-
-
-                                                        {/* <label className="form__label" for="firstName">  Name </label>     */}
-                                                        <input className="form-control Form-control-lg mb-2" type="text" id="firstName" placeholder="Name" />
+                                                     
+                                                            <input className="form-control Form-control-lg mb-2" type="text" id="firstName" placeholder="Name" />
+ 
                                                     </div>
 
                                                     <div className="email">
@@ -45,7 +44,7 @@ export const Signup = () => {
                                                 <div class="footer">
                                                     <a href="/"><button className="btn btn-outline-success btn-lg px-5">Sign Up</button></a>
                                                 </div>
-                                                 
+
                                             </div>
                                         </form>
                                     </div>
