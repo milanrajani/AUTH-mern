@@ -39,7 +39,7 @@ export const About = () => {
                         <div className="col-sm-4">
                           <div className="profile-work">
                             <p>Work Link</p>
-                            <a href=""></a>
+                            {/* <a href=""></a> */}
                           </div>
                         </div>
                       </div>
