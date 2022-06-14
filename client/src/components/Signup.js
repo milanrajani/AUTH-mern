@@ -27,16 +27,18 @@ const postData = async (e)=>{
    const res = await fetch('/register',{
     method:"POST",
     headers:{
-        "Content-type" : "application/json"
+        "Content-type" : "application/json",
+        'Accept': 'application/json'
     },
-    body:JSON.stringify({
+    body:JSON.stringify({ 
         name,
         email,
         work,
         password,
         cpassword,
     })
-   })
+})
+
 
    const data = await res.json();
    if(res.status === 422 || !data){
